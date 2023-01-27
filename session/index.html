@@ -11,7 +11,7 @@
 </head>
 <body>
 	<header>
-		<main class="header">
+		<div class="header">
 		   <div class="container">
 			 <div class="first_block">
 				<div class="list">
@@ -28,7 +28,7 @@
 							<p class="list_text">Адрес и часы работы</p>
 						</div>
 					</div>
-					<div class="header_contact_block">
+					<div class="connection">
 						<div class="list_elements">
 							<img src="images/Icon2.png" class="icon">
 							<p class="list_text">market@estatut.ru</p>
@@ -43,11 +43,11 @@
 			</div>
 			<div class="border"></div>
 			<div class="container">
-				<div class="header_second_block">
+				<div class="two_second">
 					<div>
-						<div class="search_menu_block">
-							<div class="search_block">
-								<img src="images/logo.png" class="site_logo">
+						<div class="find">
+							<div class="find_block">
+								<img src="images/logo.png" class="logotipe">
 								<input type="text" name="search" class="search" value="Автор, название, ISBN">
 								<button class="search_button">
 									<img src="images/Icon8.png" class="search_button_icon">
@@ -55,14 +55,14 @@
 								</button>
 							</div>
 						</div>
-						<div class="header_menu">
-							<div class="menu_icon">
+						<div class="menyshka">
+							<div class="menyshka_logo" onclick="hide()">
 								<img src="images/Interface.png">
 								<p>Каталог</p>
 							</div>
 							<p>Авторы</p>
 							<p>Новинки</p>
-							<div class="menu_icon sale_icon">
+							<div class="menyshka_logo sale_icon">
 								<img src="images/Icon9.png">
 								<p>Скидки</p>
 							</div>
@@ -70,28 +70,93 @@
 							<p>Мы</p>
 						</div>
 					</div>
-					<div class="account">
-						<div class="header_menu_text_icon">
-							<img src="images/Icon10.png" class="header_menu_icon">
+					<div class="cabinet">
+						<div class="menyshka_text_icon">
+							<img src="images/Icon10.png" class="menyshka_icon">
 							<p>Отложено</p>
 						</div>
-						<div class="header_menu_text_icon">
-							<img src="images/Icon11.png" class="header_menu_icon">
+						<div class="menyshka_text_icon">
+							<img src="images/Icon11.png" class="menyshka_icon">
 							<p>Войти</p>
 						</div>
-						<div class="header_menu_text_icon">
-							<img src="images/Icon12.png" class="header_menu_icon">
+						<div class="menyshka_text_icon">
+							<img src="images/Icon12.png" class="menyshka_icon">
 							<p>Корзина</p>
 						</div>
 					</div>
 				</div>
 			</div>
-		</main>
+		</div>
+		<div class="catalog_b hide_catalog_block">
+			<div class="catalog_container">
+				<div>
+					<a href="#" class="catalog catalog_title">Детям и родителям</a>
+					<a href="#" class="catalog">Развитие ребенка</a>
+					<a href="#" class="catalog">Досуг и творчество детей</a>
+					<a href="#" class="catalog">Познавательная литература</a>
+					<a href="#" class="catalog">Художественная литература</a>
+					<a href="#" class="catalog">Воспитание детей</a>
+					<a href="#" class="catalog">Комиксы</a>
+					<a href="#" class="catalog catalog_title">Бизнес-литература</a>
+					<a href="#" class="catalog">Бизнес образование</a>
+					<a href="#" class="catalog">Биографии и истории успеха</a>
+					<a href="#" class="catalog">Бухгалтерский учет</a>
+					<a href="#" class="catalog">Инвестиции</a>
+					<a href="#" class="catalog">Индустрии</a>
+				</div>
+				<div>
+					<a href="#" class="catalog">Культура бизнеса</a>
+					<a href="#" class="catalog">Личные финансы</a>
+					<a href="#" class="catalog">Маркетинг и продажи</a>
+					<a href="#" class="catalog">Менеджмент и управление</a>
+					<a href="#" class="catalog">Навыки</a>
+					<a href="#" class="catalog">Налогообложение</a>
+					<a href="#" class="catalog">Недвижимость</a>
+					<a href="#" class="catalog">Недвижимость</a>
+					<a href="#" class="catalog catalog_title">Художественная литература</a>
+					<a href="#" class="catalog">Детективы</a>
+					<a href="#" class="catalog">Ужасы, триллеры</a>
+					<a href="#" class="catalog">Фантастика</a>
+					<a href="#" class="catalog">Фэнтези</a>
+				</div>
+				<div>
+					<a href="#" class="catalog catalog_title">Нехудожественная литература</a>
+					<a href="#" class="catalog">Психология</a>
+					<a href="#" class="catalog">Cаморазвитие</a>
+					<a href="#" class="catalog">История</a>
+					<a href="#" class="catalog">Медицина</a>
+					<a href="#" class="catalog">Публицистика</a>
+					<a href="#" class="catalog">Компьютерные технологии</a>
+					<a href="#" class="catalog">Красота, здоровье и спорт</a>
+					<a href="#" class="catalog">Искусство и культура</a>
+					<a href="#" class="catalog">Дом и хобби</a>
+					<a href="#" class="catalog">Право</a>
+					<a href="#" class="catalog">Научная литература</a>
+					<a href="#" class="catalog">Юмор</a>
+				</div>
+				<div>
+					<a href="#" class="catalog">Культура бизнеса</a>
+					<a href="#" class="catalog">Личные финансы</a>
+					<a href="#" class="catalog">Маркетинг и продажи</a>
+					<a href="#" class="catalog">Менеджмент и управление</a>
+					<a href="#" class="catalog">Навыки</a>
+					<a href="#" class="catalog">Налогообложение</a>
+					<a href="#" class="catalog">Недвижимость</a>
+					<a href="#" class="catalog">Недвижимость</a>
+					<a href="#" class="catalog catalog_title">Художественная литература</a>
+					<a href="#" class="catalog">Детективы</a>
+					<a href="#" class="catalog">Ужасы, триллеры</a>
+					<a href="#" class="catalog">Фантастика</a>
+					<a href="#" class="catalog">Фэнтези</a>
+				</div>
+			</div>
+		</div>
 	</header>
+
 	<main>
 		<div class="main_container">
 			<div class="container">
-				<div class="main_offers">
+				<div class="sentence">
 					<div>
 						<div class="slider">
 							<img src="images/Group 1049.png" class="slider_img">
@@ -101,21 +166,21 @@
 							<img src="images/Group 1054.png" class="main_second_pic">
 						</div>
 					</div>
-					<div class="book_of_the_day">
-						<div class="book_of_the_day_header">
+					<div class="the_best_book">
+						<div class="the_best_book_header">
 							<h3>Книга дня</h3>
 							<div class="clock_block">
 								<p class="clock">08:56:31</p>
 							</div>
 						</div>
-						<img src="images/image 213.png" class="book_of_the_day_pic">
+						<img src="images/image 213.png" class="the_best_book_pic">
 						<div class="book_text">
 							<a href="#" class="book_genre">Корпоративное право</a> <br>
 							<a href="#"><h3 class="book_name">Инвестирование: способы, риски, субъекты : монография</h3></a>
 							<a href="#" class="book_author">Майфат А.В.</a> <br>
 							<a href="#"><h3 class="book_price">4 450 ₽</h3></a>
 						</div>
-						<div class="book_of_the_day_buttons">
+						<div class="the_best_book_buttons">
 							<button class="cart">
 								<img src="images/Icon13.png" class="cart_img">
 								<p>В корзину</p>
@@ -163,7 +228,7 @@
 									<p>89% рекомендуют</p>
 								</div>
 							</div>
-							<div class="book_of_the_day_buttons">
+							<div class="the_best_book_buttons">
 							<button class="cart">
 								<img src="images/Icon13.png" class="cart_img">
 								<p>В корзину</p>
@@ -194,7 +259,7 @@
 									<p>89% рекомендуют</p>
 								</div>
 							</div>
-							<div class="book_of_the_day_buttons">
+							<div class="the_best_book_buttons">
 							<button class="cart">
 								<img src="images/Icon13.png" class="cart_img">
 								<p>В корзину</p>
@@ -226,7 +291,7 @@
 									<p>89% рекомендуют</p>
 								</div>
 							</div>
-							<div class="book_of_the_day_buttons">
+							<div class="the_best_book_buttons">
 							<button class="cart">
 								<img src="images/Icon13.png" class="cart_img">
 								<p>В корзину</p>
@@ -260,7 +325,7 @@
 									<p>89% рекомендуют</p>
 								</div>
 							</div>
-							<div class="book_of_the_day_buttons">
+							<div class="the_best_book_buttons">
 							<button class="cart">
 								<img src="images/Icon13.png" class="cart_img">
 								<p>В корзину</p>
@@ -320,7 +385,7 @@
 									<p>89% рекомендуют</p>
 								</div>
 							</div>
-							<div class="book_of_the_day_buttons">
+							<div class="the_best_book_buttons">
 							<button class="cart">
 								<img src="images/Icon13.png" class="cart_img">
 								<p>В корзину</p>
@@ -351,7 +416,7 @@
 									<p>89% рекомендуют</p>
 								</div>
 							</div>
-							<div class="book_of_the_day_buttons">
+							<div class="the_best_book_buttons">
 							<button class="cart">
 								<img src="images/Icon13.png" class="cart_img">
 								<p>В корзину</p>
@@ -383,7 +448,7 @@
 									<p>89% рекомендуют</p>
 								</div>
 							</div>
-							<div class="book_of_the_day_buttons">
+							<div class="the_best_book_buttons">
 							<button class="cart">
 								<img src="images/Icon13.png" class="cart_img">
 								<p>В корзину</p>
@@ -417,7 +482,7 @@
 									<p>89% рекомендуют</p>
 								</div>
 							</div>
-							<div class="book_of_the_day_buttons">
+							<div class="the_best_book_buttons">
 							<button class="cart">
 								<img src="images/Icon13.png" class="cart_img">
 								<p>В корзину</p>
@@ -563,7 +628,7 @@
 								<a href="#" class="footer_contact_text">market@estatut.ru</a>
 							</div>
 							<div class="footer_contact">
-								<img src="images/Icon4.png" class="footer_contact_pic">
+						<img src="images/Icon4.png" class="footer_contact_pic">
 								<a href="#" class="footer_contact_text">8 (968) 660-65-50</a>
 							</div>
 						</div>
@@ -578,5 +643,6 @@
 			</div>
 		</div>
 	</footer>
+	<script src="script.js"></script>
 </body>
 </html>
