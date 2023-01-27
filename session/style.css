@@ -15,7 +15,7 @@
 	margin-top: 17px;
 	padding-bottom: 17px;
 }
-.header_contact_block {
+.connection {
 	display: flex;
 	justify-content: space-between;
 	color: #1C294DCC;
@@ -25,7 +25,7 @@
 	max-width: 1140px;
 	margin: 0 auto;
 }
-.site_logo {
+.logotipe {
 	margin-right: 30px;
 }
 .list_elements {
@@ -50,13 +50,13 @@ p, h1, h2, h3, h4, div, span, a, input, button{
 .list_text {
 	margin-right: 32px;
 }
-.header_second_block {
+.two_second {
 	display: flex;
 }
 .border {
 	border-bottom: 1px solid #DFE0E1;
 }
-.header_menu {
+.menyshka {
 	display: flex;
 	margin-top: 20px;
 	color: #1C294D;
@@ -69,17 +69,17 @@ p, h1, h2, h3, h4, div, span, a, input, button{
 .sale_icon {
 	color: #FF283D;
 } 
-.menu_icon {
+.menyshka_logo {
 	display: flex;
 }
-.header_menu_text_icon {
+.menyshka_text_icon {
 	display: flex;
 	cursor: pointer;
 }
-.header_menu_icon {
+.menyshka_icon {
 	margin-right: 10px;
 }
-.account {
+.cabinet {
 	display: flex;
 	width: 300px;
 	justify-content: space-between;
@@ -113,7 +113,7 @@ p, h1, h2, h3, h4, div, span, a, input, button{
 	line-height: 40px;
 	cursor: pointer;
 }
-.search_block {
+.find_block {
 	display: flex;
 	height: 40px;
 	margin-top: 20px;
@@ -155,7 +155,7 @@ p, h1, h2, h3, h4, div, span, a, input, button{
 	margin-top: 26px;
 	justify-content: space-between;
 }
-.book_of_the_day {
+.the_best_book {
 	width: 360px;
 	height: 520px;
 	margin-top: 30px;
@@ -163,17 +163,17 @@ p, h1, h2, h3, h4, div, span, a, input, button{
 	background: #FFFFFF;
 	border-radius: 5px;
 }
-.main_offers {
+.sentence {
 	display: flex;
 }
-.book_of_the_day_header {
+.the_best_book_header {
 	display: flex;
 	width: 320px;
 	justify-content: space-between;
 	margin-top: 20px;
 	margin-left: 20px;
 }
-.book_of_the_day_pic {
+.the_best_book_pic {
 	display: flex;
 	margin-top: 23px;
 	margin-left: 96px;
@@ -258,7 +258,7 @@ line-height: 14px;
 color: #0DB98C;
 margin-top: 6px;
 }
-.book_of_the_day_buttons {
+.the_best_book_buttons {
 	display: flex;
 	width: 196px;
 	height: 40px;
@@ -773,3 +773,180 @@ color: #282F3680;
 .offer_agreement {
 	color: #1C294DCC;
 }
+.mobile_header {
+	display: flex;
+	justify-content: space-between;
+}
+.mobile_catalog {
+	background: white;
+	border: none;
+	width: 13px;
+	height: 10px;
+	margin-top: 10px;
+}
+.mobile_cart {
+	width: 20px;
+	height: 20px;
+	margin-top: 10px;
+	margin-right: 20px;
+	cursor: pointer;
+}
+.mobile_search {
+	display: flex;
+	height: 40px;
+	min-width: 195px;
+	box-sizing: border-box;
+	margin-right: 16px;
+	width: 80%;
+}
+.mobile_search_input {
+	width: 80%;
+	background: #F7F7F7;
+	border: none;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	padding-left: 15px;
+	font-weight: 400;
+font-size: 14px;
+line-height: 16px;
+color: #1C294D80;
+
+}
+.mobile_catalog_logo {
+	display: flex;
+	max-width: 75px;
+	width: 100%;
+	margin-left: 23px;
+	justify-content: space-between;
+	margin-right: 20px;
+}
+.mobile_logotipe {
+	width: 43px;
+	height: 35px;
+}
+.mobile_seach_button {
+	width: 40px;
+	height: 40px;
+	border: none;
+	background: #F7F7F7;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+.mobile_pics {
+	display: flex;
+	flex-direction: column;
+	margin: 0 auto;
+	width: 355px;
+}
+
+ .advantages_block {
+ 	flex-wrap: wrap;
+ }
+ .advantage {
+ 		margin: 0 auto;
+ } 
+.hide_pics {
+	display: none;
+}
+.mobile_first_pic {
+	margin-top: 10px;
+}
+.mobile_second_pic {
+	margin-top: 10px;
+}
+ .second_slider {
+ 	max-width: 1140px;
+ 	min-width: 1px;
+ }
+ .catalog_b {
+ 	width: 100%;
+ 	position: absolute;
+ 	z-index: 11;
+ 	background: white;
+ 	margin: 0 auto;
+ }
+ .catalog_container {
+	display: flex;
+ 	justify-content: space-between;
+ 	border-top: 1px solid #1C294D26;
+ 	max-width: 1140px;
+ 	margin: 0 auto;
+ 	padding-top: 15px;
+ 	padding-bottom: 41px;
+ }
+ .catalog {
+ 	display: flex;
+ 	flex-direction: column;
+ 	color: #1C294D;
+ 	font-weight: 400;
+	font-size: 14px;
+	line-height: 20px;
+	margin-bottom: 12px;
+ }
+ .catalog_title {
+ 	font-weight: 700;
+font-size: 14px;
+line-height: 20px;
+ }
+ .hide_catalog_block {
+	display: none;
+}
+.hide_mobile_header {
+   display: none;
+}
+
+
+@media (max-width: 1140px){
+	.header_first_block {
+		display: none;
+	}
+	.two_second {
+		display: none;
+	}
+	.border {
+		display: none;
+	}
+	 .main_pics {
+		 margin: 0 auto;
+	 }
+	 .the_best_book {
+		 margin: 0 auto;
+	 }
+	 .advantage {
+			 margin-bottom: 10px;
+	 }
+	.news:not(:last-child) {
+		border:none;
+	}
+	.new_receiving_book:not(:last-child) {
+		border: none;
+	}
+	}
+	@media (max-width: 763px) {
+	 .header_first_block {
+		 display: none;
+	 }
+	 .two_second {
+		 display: none;
+	 }
+	.border {
+		display: none;
+	}
+	.main_pictures {
+		display: none;
+	}
+	.email_block {
+	flex-direction: column;
+	padding-bottom: 10px;
+	}
+	.email_input {
+		width: 95%;
+		margin: 0 auto;
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+	.subscribe {
+		width: 95%;
+		margin: 0 auto;
+	}
+	}
